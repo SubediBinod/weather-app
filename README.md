@@ -36,6 +36,3 @@ To install and run the app locally, follow these steps:
 
 The weather data for this app is sourced from [OpenWeatherMap API](https://openweathermap.org/api).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
