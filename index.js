@@ -30,7 +30,7 @@ let weather={
     getBackgroundImage: function (weatherCondition) {
         switch (weatherCondition) {
             case "clear":
-                document.body.style.backgroundImage = "url('clear.jpg')";
+                document.body.style.backgroundImage = "url('sunny.jpg')";
                 document.getElementById("emoji-img").innerHTML= "🌞";
                 break;
             case "clouds":
@@ -38,12 +38,20 @@ let weather={
                 document.getElementById("emoji-img").innerHTML= "⛅";
                 break;
             case "rain":
-                document.body.style.backgroundImage = "url('rainy.jpg')";
+                document.body.style.backgroundImage = "url('rainy1.jpg')";
                 document.getElementById("emoji-img").innerHTML= "☔";
                 break;
             case "snow":
                 document.body.style.backgroundImage = "url('snow.jpg')";
-                document.getElementById("emoji-img").innerHTML= "☔";
+                document.getElementById("emoji-img").innerHTML= "❄️";
+                break;
+            case "thunderstorm":
+                document.body.style.backgroundImage = "url('thunder.jpg')";
+                document.getElementById("emoji-img").innerHTML= "🌩️";
+                break;
+            case "drizzle":
+                document.body.style.backgroundImage = "url('rainy.jpg')";
+                document.getElementById("emoji-img").innerHTML= ":🌦️";
                 break;
             default:
                 document.body.style.backgroundImage = "url('img.jpg')"; 

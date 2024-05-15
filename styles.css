@@ -14,7 +14,7 @@ body{
 }
 
 .box{
-    background-color: #6E6E6E;
+    background-color: #e5d9d9;
     padding: 2em;
     border-radius: 15px;
     width:100%;
@@ -23,7 +23,7 @@ body{
     max-height: 400px;
     margin:1em;
     box-shadow: 3px 3px 3px rgb(26, 21, 21);
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .search{
@@ -82,4 +82,12 @@ h4{
     font-size: 5.5em; 
     margin-top: .5em;
     overflow: hidden;
+}
+
+#search-bar::placeholder {
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-size: 16px;                  /* Change the font size */
+    font-style: italic;               /* Change the font style (italic in this case) */
+    color: #2e2727;                      /* Change the font color */
+    opacity: 1;                       /* Ensure the color is fully opaque (for Firefox) */
 }
